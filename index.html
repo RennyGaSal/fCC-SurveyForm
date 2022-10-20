@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title id="title">Cat Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>A survey form about cats</h1>
+        <p>Let me know about You and your cat</p>
+        <form action="#">
+          <fieldset>
+            <section id="about-user">
+              <label for="user-name"
+                ><input type="text" name="user-name" id="user-name"
+              /></label>
+              <label for="user-email"
+                ><input type="email" name="user-email" id="user-email"
+              /></label>
+              <label for="user-age"
+                ><input type="number" name="user-age" id="user-age"
+              /></label>
+            </section>
+            <section id="about-cat">
+              <label for="cat-name"
+                ><input type="text" name="cat-name" id="cat-name"
+              /></label>
+              <label for="cat-gender"
+                ><input type="radio" name="cat-gender" id="cat-gender"
+              /></label>
+              <label for="cat-gender"
+                ><input type="radio" name="cat-gender" id="cat-gender"
+              /></label>
+              <legend>Is he/she a:</legend>
+              <label for="cat-breed"
+                ><select name="cat-breed" id="cat-breed">
+                  <option value="">(select a breed)</option>
+                  <option value="1"></option>
+                  <option value="2"></option>
+                  <option value="3"></option>
+                  <option value="4"></option>
+                  <option value="5"></option>
+                  <option value="6"></option>
+                  <option value="7"></option>
+                  <option value="8">Other</option>
+                </select>
+              </label>
+              <legend>
+                What are your cat's traits? (Check all that apply)
+              </legend>
+              <label for="cat-adventurous"
+                ><input
+                  type="checkbox"
+                  name="cat-adventurous"
+                  id="cat-adventurous"
+              /></label>
+              <label for="cat-agressive"
+                ><input type="checkbox" name="cat-agressive" id="cat-agressive"
+              /></label>
+              <label for="cat-friendly"
+                ><input type="checkbox" name="cat-friendly" id="cat-friendly"
+              /></label>
+              <label for="cat-hyper"
+                ><input type="checkbox" name="cat-hyper" id="cat-hyper"
+              /></label>
+              <label for="cat-lazy"
+                ><input type="checkbox" name="cat-lazy" id="cat-lazy"
+              /></label>
+              <label for="cat-neat">
+                <input type="checkbox" name="cat-neat" id="cat-neat" />
+              </label>
+              <label for="cat-noisy">
+                <input type="checkbox" name="cat-noisy" id="cat-noisy" />
+              </label>
+              <label for="cat-piggy">
+                <input type="checkbox" name="cat-piggy" id="cat-piggy" />
+              </label>
+              <label for="cat-quiet">
+                <input type="checkbox" name="cat-quiet" id="cat-quiet" />
+              </label>
+              <label for="more-about">
+                <textarea
+                  name="more-about"
+                  id="more-about"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </label>
+            </section>
+          </fieldset>
+          <input type="reset" value="Reset" />
+          <input type="button" value="Submit" />
+        </form>
+      </div>
+    </main>
+    <footer>Made with :heart: by Renny Galárraga - 2022</footer>
+  </body>
+</html>
